@@ -1,0 +1,36 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package ej1;
+import java.util.Scanner;
+/**
+ *
+ * @author Estela
+ */
+public class Ej1 {
+//1.Dos numeros divisibles entre si 
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        //Pedir primer numero
+         Scanner teclado = new Scanner(System.in);
+        System.out.print( "Introduzca el primer número: " );
+        int primerNumero = teclado.nextInt();
+        //Pedir segundo numero
+        System.out.print( "Introduzca el segundo número: " );
+        int segundoNumero = teclado.nextInt();
+        int modulo= primerNumero % segundoNumero;
+        if(modulo==0)
+        {
+              System.out.print( "El número "+primerNumero+" es divisible entre "+segundoNumero+"\n" );
+        }
+        else
+        {
+            System.out.print( "No son divisibles entre si\n" );
+        }
+    }
+    
