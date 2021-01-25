@@ -1,0 +1,21 @@
+package ejercicio3;
+
+import java.util.Scanner;
+
+public class Ejercicio3 {
+
+    public static void main(String[] args) {
+        Scanner reader = new Scanner(System.in);
+        int numeroCargar = 0, numeroPares = 0, numeroImpares = 0;
+        
+        System.out.print("Ingresa hasta que numero quieres cragar : ");
+        numeroCargar = reader.nextInt();
+        for(int i=1 ; i <= numeroCargar; i++){
+            if((i%2) == 0)numeroPares++;
+            else numeroImpares ++;
+        }
+        System.out.println("Total de números pares : "+ String.valueOf(numeroPares));
+        System.out.println("Total de números impares : "+ String.valueOf(numeroImpares));
+    }
+    
+}
