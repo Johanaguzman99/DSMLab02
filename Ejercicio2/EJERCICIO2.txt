@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class NotasAlumnos {
+	public static void main[] ar){
+  		
+	Scanner teclado=new Scanner(System.in);
+	
+	int apro, repro, n;
+	double nota;
+	
+	apro=0;
+	repro=0;
+	n=1;
+	while (n<=10){
+		System.out.print("Ingrese la nota #"+n);
+		nota=teclado.nextDouble();
+
+		if(nota <0 || nota >10){ 
+		System.out.print("Ingrese una nota correcta");
+		nota=teclado.nextDouble();
+		}
+		else if(nota>7){
+		apro=apro+1;
+		} else {
+		    repro=repro+1;
+		}
+		n=n+1;
+	
+	}
+     System.out.print("La cantidad de notas igual o menor a 7 es: "+repro);
+     System.out.print("La cantidad de notas mayor a 7 es: "+apro);
+  }
+}
