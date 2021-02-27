@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Contador_de_Votos.iml" filepath="$PROJECT_DIR$/.idea/modules/Contador_de_Votos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Contador_de_Votos.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Contador_de_Votos.app.iml" />
+    </modules>
+  </component>
+</project>
