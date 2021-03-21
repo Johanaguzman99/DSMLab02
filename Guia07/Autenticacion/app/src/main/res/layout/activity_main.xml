@@ -9,10 +9,11 @@
     android:gravity="center_vertical"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".LoginActivity">
+    tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
         android:layout_height="wrap_content"
         android:text="Gestión de Cuenta e Inicio de Sesión" />
 
@@ -47,13 +48,19 @@
         android:layout_height="wrap_content"
         android:visibility="gone" />
 
-    <Button
+
+    <com.google.android.gms.common.SignInButton
         android:id="@+id/btnGoogle"
-        android:layout_width="match_parent"
+        android:layout_width="370dp"
         android:layout_height="wrap_content"
-        android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
-        android:drawableStart="@mipmap/google"
-        android:text="Button"
-        android:textColor="@color/black" />
+        android:layout_marginTop="30dp" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/btnFb"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp" />
 
 </LinearLayout>
