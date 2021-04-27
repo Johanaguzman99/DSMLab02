@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SumaMVP</string>
+    <string name="title">Suma de 2 numeros</string>
+    <string name="boton">Realizar la suma</string>
+    <string name="simboloSuma"><b>+</b></string>
+    <string name="hint1">Num1</string>
+    <string name="hint2">Num2</string>
+    <string name="error1">Campos vacios!</string>
+    <string name="error2">Numero 1 vacio!</string>
+    <string name="error3">Numero 2 vacio!</string>
+</resources>
