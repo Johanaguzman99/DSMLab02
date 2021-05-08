@@ -40,5 +40,5 @@ public class MainActivity extends ListActivity implements LoaderCallbacks<Cursor
         adaptador.swapCursor(null);
     }
 
-    //No entendí la guía :c
+    //No entendimos la guía :'c
 }
